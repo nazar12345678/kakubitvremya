@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>как убить время</title>
+</head>
+<body>
+    <h1 id="2">0</h1>
+<button onclick="click1()">+</button>
+<button onclick="click2()">-</button>
+    <h2 id="3">0</h2>
+<button onclick="click3()">-</button>
+<button onclick="click4()">+</button>
+</body>
+<script>
+    score=0
+    function click1() {
+        score=score+1
+        document.getElementById('2').innerHTML = score
+    }
+    function click2(){
+
+        score=score-1
+        document.getElementById('2').innerHTML = score
+    }
+    score2=0
+    function click3() {
+        score2=score2-1
+        document.getElementById('3').innerHTML = score2
+    }
+    function click4() {
+        score2=score2+1
+        document.getElementById('3').innerHTML = score2
+    }
+    </script>
+</html>
